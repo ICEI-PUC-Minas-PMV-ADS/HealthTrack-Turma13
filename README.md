@@ -10,13 +10,13 @@ Nossa aplicação tem o intuito de auxiliar no dia a dia do nosso usuário para 
 
 ## Integrantes
 
-*Caique Romero Magalhaes
-*Davidson de Paiva Marques
-*Felipe Pinto Cardoso
-*Gabriel Rodrigues Henrique Marcio
-*Israel Costa Corrêa de Lima
-*Márcio Emanuel Batista de Pádua
-*William Ribeiro Amaral
+* Caique Romero Magalhaes
+* Davidson de Paiva Marques
+* Felipe Pinto Cardoso
+* Gabriel Rodrigues Henrique Marcio
+* Israel Costa Corrêa de Lima
+* Márcio Emanuel Batista de Pádua
+* William Ribeiro Amaral
 
 ## Orientador
 
