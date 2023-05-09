@@ -12,7 +12,7 @@
             overflow: hidden;
         }
 
-        .topnavbar a{
+        .topnavbar ul li{
             float: left;
             color: #ffffff;
             text-align: center;
@@ -20,3 +20,13 @@
             text-decoration: none;
             font: 400 18px Lato, sans-serif;
         }
+
+        .FichaDeTreino{
+            background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);;
+            width: 600px;
+            height: 800px;
+            margin-left: 50px;
+            margin-top: 50px;
+            position:absolute;
+        }
+        
