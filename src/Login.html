@@ -10,18 +10,25 @@
     <meta name="author" content="Márcio Emanuel">
     <body>
         <main class="Container">
-            <div class="Titulo-Pagina">
-                <h1 class="Pagina"><span class="Sublinhado">Lo</span>gin</h1>
-            </div>
-            <div class="Formulario">
-                <form name="Login" action="home.html" method="post">
-                    E-mail:<br>
-                    <input type="email" name="E-mail" value=""><br>
-                    Senha:<br> 
-                    <input type="password" name="Senha" value=""><br>
-                    <button type="button" class="btn btn-danger">Entrar</button>
-                    <button type="button" class="btn btn-danger">Cadastre-se</button>
-                </form>
+            <div class="Layout">
+                <div class="Titulo-Pagina">
+                    <img class="LogoLogin" src="../docs/img/logo-para-login-e-cadastro.png">
+                </div>
+                <div class="Titulo-Text">
+                    <h1 class="Pagina"><span class="Sublinhado">Lo</span>gin</h1>
+                </div>
+                <div class="Formulario">
+                    <form name="Login" action="home.html" method="post">
+                        E-mail:<br>
+                        <input type="email" name="E-mail" value=""><br>
+                        Senha:<br> 
+                        <input type="password" name="Senha" value=""><br>
+                    </form>
+                </div>
+                <div class="Button">
+                    <button id="Entrar" type="button" class="btn btn-danger" href="home.html">Entrar</button>
+                    <button id="Cadastro" type="button" class="btn btn-danger" href="Cadastro.html">Cadastro</button>
+                </div>
             </div>
         </main>
 

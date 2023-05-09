@@ -31,15 +31,68 @@ body{
 
 /*FORMULARIO DE LOGIN*/
 .Container{
+    display: flexbox;
+    background: white;
     height: 600px;
-    width: 950px;
-    border: 2px firebrick solid;
+    width: 800px;
+
     margin: 11% auto;
     position: relative;
     border-radius: 10px;
 }
-.box .q1{
+.Container .Layout{
+
     background: linear-gradient(164.22deg, #f05348 10%, #ae1005 69%);
-    width: 200px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 350px;
     height: 100%;
+}
+
+.Titulo-Pagina{
+    margin-top: 5%;
+    margin-left: 11%;
+    position: absolute;
+}
+
+.Titulo-Text{
+    margin-top: 30%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.Titulo-Pagina .LogoLogin{
+    width: 175px;
+}
+
+.Titulo-Text .Pagina{
+    font-size: 400%;
+    color: white;
+    margin-top: 35%;
+    position: absolute;   
+}
+
+.Titulo-Text .Pagina .Sublinhado{
+    color: white;
+    text-decoration: underline;
+}
+
+.Formulario{
+    margin-top: 20%;
+    margin-left: 60%;
+    position:absolute;
+}
+
+.Button{
+    margin-top: 65%;
+    margin-left: 90%;
+    position: absolute;
+}
+
+.Button #Entrar{
+    margin-left: -350%;
+}
+
+.Button #Cadastro{
+    margin-left: 190%;
 }
