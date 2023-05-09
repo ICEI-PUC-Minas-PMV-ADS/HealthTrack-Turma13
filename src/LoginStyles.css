@@ -34,8 +34,7 @@ body{
     display: flexbox;
     background: white;
     height: 600px;
-    width: 800px;
-
+    width: 850px;
     margin: 11% auto;
     position: relative;
     border-radius: 10px;
@@ -49,20 +48,17 @@ body{
     height: 100%;
 }
 
-.Titulo-Pagina{
+.Logo-Pagina{
     margin-top: 5%;
-    margin-left: 11%;
+    margin-left: 6%;
     position: absolute;
 }
 
 .Titulo-Text{
-    margin-top: 30%;
-    margin-left: 5%;
-    position: absolute;
-}
-
-.Titulo-Pagina .LogoLogin{
+    margin-top: 25%;
+    margin-left: 6%;
     width: 175px;
+    position: absolute;
 }
 
 .Titulo-Text .Pagina{
@@ -79,20 +75,55 @@ body{
 
 .Formulario{
     margin-top: 20%;
-    margin-left: 60%;
+    margin-left: 50%;
     position:absolute;
+    font-family: Monda-Regular;
+    color: #FF5454;
 }
 
-.Button{
-    margin-top: 65%;
-    margin-left: 90%;
+.Titulo-Email{
+    margin-bottom: 5%;
+}
+
+.Titulo-Senha{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.email{
+    width: 350px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #FF5454;
+}
+
+.senha{
+    width: 350px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #FF5454;
+}
+
+.Button-Entrar{
+    margin-top: 50%;
+    margin-left: 425px;
     position: absolute;
 }
 
-.Button #Entrar{
-    margin-left: -350%;
+.Button-Cadastro{
+    margin-top: 50%;
+    margin-left: 685px;
+    position: absolute;
 }
 
-.Button #Cadastro{
-    margin-left: 190%;
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover {
+    color: #000000;
 }

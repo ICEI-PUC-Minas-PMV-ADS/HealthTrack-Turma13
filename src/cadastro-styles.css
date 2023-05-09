@@ -1,5 +1,6 @@
 @charset "UTF-8"
 /* ----- INCLUSÃO DAS FONTES ----- */
+
 @font-face {
     font-family: 'Jost-Light';
     src: url('../docs/fonts/Jost-Light.ttf') format('truetype'); 
@@ -243,3 +244,14 @@ body{
        text-underline-offset: 8px;
 }
 
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover {
+    color: #000000;
+}

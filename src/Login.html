@@ -7,27 +7,46 @@
     <link rel="stylesheet" href="LoginStyles.css">
     <title>Bem Vindo ao HealthTrack</title>
 </head>
+<!--AUTHOR-->
     <meta name="author" content="Márcio Emanuel">
+    <!--cORPO DO PROJETO-->
     <body>
+        <!--CONTAINER DO DESIGNER DA TELA DE LOGIN-->
         <main class="Container">
+            <!--DIV DO LAYOUT INICIAL-->
             <div class="Layout">
-                <div class="Titulo-Pagina">
-                    <img class="LogoLogin" src="../docs/img/logo-para-login-e-cadastro.png">
+                <!--LOGO DA PAGINA-->
+                <div class="Logo-Pagina">
+                    <img src="../docs/img/logo-para-login-e-cadastro.png">
                 </div>
+                <!--NOME ESTILIZADO "LOGIN"-->
                 <div class="Titulo-Text">
                     <h1 class="Pagina"><span class="Sublinhado">Lo</span>gin</h1>
                 </div>
+                <!--FORMULARIO DO CADASTRO "EMAIL E SENHA"-->
                 <div class="Formulario">
                     <form name="Login" action="home.html" method="post">
-                        E-mail:<br>
-                        <input type="email" name="E-mail" value=""><br>
-                        Senha:<br> 
-                        <input type="password" name="Senha" value=""><br>
+                        <div class="Titulo-Email">
+                            <h2>E-mail</h2>
+                        </div>
+                        <form>
+                            <input class="email" type="email" name="E-mail" value="">
+                        </form>
+                        <div class="Titulo-Senha">
+                            <h2>Senha</h2>
+                        </div>
+                        <form>
+                            <input class="senha" type="password" name="Senha" value="">
+                        </form>
                     </form>
                 </div>
-                <div class="Button">
-                    <button id="Entrar" type="button" class="btn btn-danger" href="home.html">Entrar</button>
-                    <button id="Cadastro" type="button" class="btn btn-danger" href="Cadastro.html">Cadastro</button>
+                <!--BOTÕES DE ENTRAR E CARASTRO-->
+                <div class="Button-Entrar">
+                    <button type="button" class="btn btn-danger"><a href="home.html">Entrar</a></button>
+                </div>
+                <div class="Button-Cadastro">
+                    <button type="button" class="btn btn-danger"><a href="cadastro.html">Cadastro</a></button>
+                </div>
                 </div>
             </div>
         </main>
