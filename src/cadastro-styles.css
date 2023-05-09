@@ -1,3 +1,4 @@
+@charset "UTF-8"
 /* ----- INCLUSÃO DAS FONTES ----- */
 @font-face {
     font-family: 'Jost-Light';
@@ -21,8 +22,12 @@
 }
 
 /* ----- ALTERAÇÃO BACKGROUND DA PAGINA DE LOGIN ----- */
+html{
+    width: 100vw;
+    height: 100vh;
+}
 body{
-    background-image: url('../docs/img/background.png');
+    background-image: url('../docs/img/background-menor.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0;
