@@ -36,22 +36,23 @@
             margin-bottom: 25px;
           }
 
-          /* -----botão submit style----- */
+          /* -----botão-submit----- */
           input[type="submit"] {
-            opacity: 1;
+            color: white;
             background-color: rgba(255, 255, 255, 0);
-            border: 0;
+            border-radius: 7px;
+            border-color: white;
+            margin-left: 5px;
           }
             
-          /* -----input box style----- */  
+          /* -----input-box----- */  
           input[type="text"] {
             margin-top: 0px;
             margin-bottom: 0px;
-            margin-left: 3px;
+            margin-left: 0px;
             background-color: rgba(255, 255, 255, 0);
-            width: 475px;
+            width: 505px;
             border:rgba(255, 255, 255, 0);
-            
           }
           
           /* -----fichaDeTreino-Background----- */
@@ -64,10 +65,11 @@
             margin-top: 75px;
             position:absolute;
         }
-
+        /* -----fichaDeTreino-header----- */
         h2 {
-            position: absolute;
-            margin-left: 180px;
+            position: relative;
+            top: 25px;
+            text-align: center;
             color:rgb(255, 255, 255);
         };
         
