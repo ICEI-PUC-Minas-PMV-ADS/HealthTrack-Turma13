@@ -7,7 +7,7 @@
     
         }
         
-        .topnavbar{
+        .topnavbar {
             background-color: #440501;
             overflow: hidden;
         }
@@ -21,12 +21,53 @@
             font: 400 18px Lato, sans-serif;
         }
 
-        .FichaDeTreino{
+        ul {
+            list-style-type: none;
+        }
+
+        /* -----form style ----- */
+        form {
+            border: none;
+            padding: 2px;
+            box-shadow: 0px 2px 0px 0px rgb(255, 255, 255);
+            margin-top: 25px;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-bottom: 25px;
+          }
+
+          /* -----botão submit style----- */
+          input[type="submit"] {
+            opacity: 1;
+            background-color: rgba(255, 255, 255, 0);
+            border: 0;
+          }
+            
+          /* -----input box style----- */  
+          input[type="text"] {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 3px;
+            background-color: rgba(255, 255, 255, 0);
+            width: 475px;
+            border:rgba(255, 255, 255, 0);
+            
+          }
+          
+          /* -----fichaDeTreino-Background----- */
+        .FichaDeTreino {
             background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);;
             width: 600px;
-            height: 800px;
-            margin-left: 50px;
-            margin-top: 50px;
+            height: 625px;
+            border-radius: 7px;
+            margin-left: 25px;
+            margin-top: 75px;
             position:absolute;
         }
+
+        h2 {
+            position: absolute;
+            margin-bottom: ;
+            margin-left: 180px;
+        };
         
