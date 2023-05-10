@@ -25,36 +25,49 @@
             list-style-type: none;
         }
 
-        /* -----form style ----- */
-        form {
+
+        /* -----fichaDeTreino-header----- */
+        h2 {
+            text-align: center;
+            position: relative;
+            top: 25px;
+            color:rgb(255, 255, 255);
+        }
+
+          /* -----input-box----- */  
+          input[type="text"] {
+            position: relative;
+            left: 40px;
+            bottom: -2px;
+            width: 470px;
             border: none;
-            padding: 2px;
-            box-shadow: 0px 2px 0px 0px rgb(255, 255, 255);
-            margin-top: 45px;
-            margin-left: 25px;
-            margin-right: 25px;
-            margin-bottom: 25px;
+            outline-color: rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0);
           }
 
           /* -----botão-submit----- */
           input[type="submit"] {
+            position: relative;
+            right: 484px;
             color: white;
-            background-color: rgba(255, 255, 255, 0);
-            border-radius: 7px;
             border-color: white;
-            margin-left: 5px;
-          }
-            
-          /* -----input-box----- */  
-          input[type="text"] {
-            margin-top: 0px;
-            margin-bottom: 0px;
-            margin-left: 0px;
+            border: none;
             background-color: rgba(255, 255, 255, 0);
-            width: 505px;
-            border:rgba(255, 255, 255, 0);
+            font-size: 34px;
           }
-          
+
+          /* -----form style----- */
+        form {
+            position: relative;
+            top: 40px;
+            margin-left: 45px;
+            margin-right: 45px;
+            margin-top: 10px;
+            border: none;
+            box-shadow: 0px 2px 0px 0px rgb(255, 255, 255);
+          }
+
+
           /* -----fichaDeTreino-Background----- */
         .FichaDeTreino {
             background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);;
@@ -65,11 +78,3 @@
             margin-top: 75px;
             position:absolute;
         }
-        /* -----fichaDeTreino-header----- */
-        h2 {
-            position: relative;
-            top: 25px;
-            text-align: center;
-            color:rgb(255, 255, 255);
-        };
-        
