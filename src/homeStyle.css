@@ -28,26 +28,17 @@
 
         /* -----fichaDeTreino-header----- */
         h2 {
-            position: relative(form);
             text-align: center;
+            position: relative;
+            top: 25px;
             color:rgb(255, 255, 255);
         }
-
-            /* -----form style----- */
-        form {
-            position: relative;
-            top: 30px;
-            margin-top: 0px;
-            margin-left: 45px;
-            margin-right: 45px;
-            margin-bottom: 45px;
-            border: none;
-            box-shadow: 0px 2px 0px 0px rgb(255, 255, 255);
-          }
 
           /* -----input-box----- */  
           input[type="text"] {
             position: relative;
+            left: 40px;
+            bottom: -2px;
             width: 470px;
             border: none;
             outline-color: rgb(255, 255, 255);
@@ -57,12 +48,28 @@
           /* -----botão-submit----- */
           input[type="submit"] {
             position: relative;
-            border-radius: 7px;
+            bottom: 5px;
+            right: 475px;
+            border-width: 2px;
+            border-radius: 9px;
             color: white;
             border-color: white;
+            border-style: groove;
             background-color: rgba(255, 255, 255, 0);
             
           }
+
+          /* -----form style----- */
+        form {
+            position: relative;
+            top: 40px;
+            margin-left: 45px;
+            margin-right: 45px;
+            margin-bottom: 37.5px;
+            border: none;
+            box-shadow: 0px 2px 0px 0px rgb(255, 255, 255);
+          }
+
 
           /* -----fichaDeTreino-Background----- */
         .FichaDeTreino {
