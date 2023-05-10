@@ -1,22 +1,68 @@
-@media screen and (min-width: 650px) {
-            body{
-                background-image: url(../docs/img/background0.png);
-                background-repeat: no-repeat;
-                 background-size: cover;
-            } 
-    
-        }
-        
-        .topnavbar{
-            background-color: #440501;
-            overflow: hidden;
-        }
+/*INCLUSÃO DAS FONTES*/
+@font-face {
+    font-family: 'Jost-Light';
+    src: url('../docs/fonts/Jost-Light.ttf') format('truetype');
+}
 
-        .topnavbar a{
-            float: left;
-            color: #ffffff;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font: 400 18px Lato, sans-serif;
-        }
+@font-face {
+    font-family: 'jostregular';
+    src: url('../docs/fonts/jostregular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'jostregularss';
+    src: url('../docs/fonts/jostregularss.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monda-Bold';
+    src: url('../docs/fonts/Monda-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monda-Regular';
+    src: url('../docs/fonts/Monda-Regular.ttf') format('truetype');
+}
+
+@media screen and (min-width: 650px) {
+    body {
+        background-image: url(../docs/img/background0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+.topnavbar {
+    display: flex;
+    background-color: #440501;
+    overflow: hidden;
+}
+
+.topnavbar ul,
+li {
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    list-style-type: none;
+}
+
+.topnavbar a {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    font: 400 18px Lato, Monda-Regular;
+
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #000000;
+}
