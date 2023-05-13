@@ -34,7 +34,7 @@ ul {
 .exercFavDiv {
     position:absolute;
     margin-top: 175px;
-    margin-left: 380px;
+    margin-left: 350px;
     background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);;
     width: 600px;
     height: 625px;
@@ -45,12 +45,12 @@ ul {
 .receFavDiv {
     position:absolute;
     margin-top: 175px;
-    margin-left: 980px;
+    margin-left: 950px;
     background: rgba(255, 255, 255, 1);
     width: 600px;
     height: 625px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .exerFavH2 {
