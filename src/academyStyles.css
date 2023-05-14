@@ -55,16 +55,17 @@ ul {
     box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
 }
 
-.exerciciosHeader {
+.exerciciosH2 {
     position:relative;
     top: 25px;
     text-align: center;
     color: #ffffff;
 }
 
-.receitasHeader {
+.receitasH2 {
     position: relative;
     top: 25px;
     text-align: center;
+    color: #440501;
 }
 

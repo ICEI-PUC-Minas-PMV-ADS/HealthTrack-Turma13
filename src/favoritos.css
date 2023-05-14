@@ -55,6 +55,7 @@ ul {
     box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
 }
 
+/* -----titulo da ficha----- */
 .exerFavH2 {
     position:relative;
     top: 25px;
@@ -62,9 +63,11 @@ ul {
     color: #ffffff;
 }
 
+/* -----titulo da ficha2----- */
 .receFavH2 {
     position: relative;
     top: 25px;
     text-align: center;
+    color: #440501;
 }
 
