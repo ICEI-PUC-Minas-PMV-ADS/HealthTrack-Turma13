@@ -134,3 +134,15 @@
           border-bottom-right-radius: 10px;
           box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
       }
+
+      a:link {
+        color: white;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    a:hover {
+        color: #000000;
+    }
