@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+}
+@media only screen and (max-width: 2239px) {
+    body{
+        background-image: url(../docs/img/background0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        
+    }
+
+}
+
+.topnavbar ul li{
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: 400 18px Lato, sans-serif;
+}
+
+.topnavbar {
+    background-color: #440501;
+    overflow: hidden;
+    width: 100vw;
+    align-items: start;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+.topnavbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   }
+.left {
+    display: flex;
+    background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);;
+    width: 25vw;
+    height: 70vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.right{
+    display: flex;
+    background: white;
+    width: 30vw;
+    height: 70vh;
+    align-items: flex-start;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 25px;
+}
+.right h5{
+    display: flex;
+    width: 15vw;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    color: #F05348;
+}
+.taxa-m{
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textfild input{
+    width: 90%;
+    align-items: flex-start;
+    height: 10px;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #f0534873;
+    margin: 10px;
+    padding: 10px 0px;
+    outline: none;
+}
+.textfild ::placeholder{
+    color: #f0534873;
+}
+.tmb{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #AE1005;
+    border: none;
+    outline: none;
+}
+.resultado{
+    width: 70%;
+    align-items: center;
+    height: 15px;
+    display: flex;
+    border-bottom: 1px solid #f0534873;
+    margin: -25px;
+    margin-left: 88px;
+    color: #f0534873;
+}
+
+
+.imc h5{
+    margin:0;
+    display: flex;
+    width: 15vw;
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    color: #F05348;
+}
+.taxa-imc{
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textimc input{
+    width: 90%;
+    align-items: flex-start;
+    height: 10px;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #f0534873;
+    margin: 10px;
+    padding: 10px 0px;
+    outline: none;
+}
+.textimc ::placeholder{
+    color: #f0534873;
+}
+.btnimc{
+    display: flex;
+    width: 38%;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #AE1005;
+    border: none;
+    outline: none;
+}
+.resultado-imc{
+    width: 50%;
+    align-items: center;
+    height: 15px;
+    display: flex;
+    border-bottom: 1px solid #f0534873;
+    margin: -25px;
+    margin-left: 88px;
+    color: #f0534873;
+}
+.estado{
+    width: 358%;
+    align-items: center;
+    height: 15px;
+    display: flex;
+    border-bottom: 1px solid #f0534873;
+    color: #f0534873;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+
+}
+.tabela1{
+    display: flex;
+    width: 50%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #440501;
+}
+.tabela1 span{
+    font-weight: bold;
+}
