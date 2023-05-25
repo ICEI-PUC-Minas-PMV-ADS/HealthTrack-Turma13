@@ -18,13 +18,38 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font: 400 18px Lato, sans-serif;
         }
 
         ul {
             list-style-type: none;
         }
 
+        .home{
+          padding: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+          background: rgba(240, 83, 72, 1);
+          border-color: rgba(240, 83, 72, 1);
+          border-radius: 5px;
+          color: white;
+      }
+      
+      .academy{
+          padding: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+          background: rgba(240, 83, 72, 1);
+          border-color: rgba(240, 83, 72, 1);
+          border-radius: 5px;
+          color: white;
+      }
+      
+      .favoritos{
+          padding: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+          background: rgba(240, 83, 72, 1);
+          border-color: rgba(240, 83, 72, 1);
+          border-radius: 5px;
+          color: white;
+      }
 
         /* -----titulo da ficha----- */
         .FichaDeTreinoH2 {
