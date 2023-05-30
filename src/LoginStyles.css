@@ -78,6 +78,17 @@ body {
     text-decoration: underline;
 }
 
+#msgErro {
+    text-align: center;
+    color: #FF0000;
+    background-color: #FFBBBB;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: -70px;
+    margin-bottom: 25px;
+    display: none;
+}
+
 .Formulario {
     margin-top: 20%;
     margin-left: 50%;
@@ -86,7 +97,7 @@ body {
     color: #FF5454;
 }
 
-.Titulo-Email {
+.Titulo-Usuarios {
     margin-bottom: 5%;
 }
 
@@ -95,7 +106,7 @@ body {
     margin-bottom: 5%;
 }
 
-.email {
+.usuario {
     width: 350px;
     outline: none;
     border: 0;

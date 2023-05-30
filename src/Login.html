@@ -27,23 +27,25 @@
                 <!--FORMULARIO DO CADASTRO "EMAIL E SENHA"-->
                 <div class="Formulario">
                     <form name="Login" action="home.html" method="post">
-                        <div class="Titulo-Email">
-                            <h2>E-mail</h2>
+                        <div id="titUsuario" class="Titulo-Usuario">
+                            <div id="msgErro"></div>
+                            <div id="msgSuccess"></div>
+                            <h2>Usuario</h2>
                         </div>
                         <form>
-                            <input id="emailAut" class="email" type="email" name="E-mail" placeholder="E-mail">
+                            <input id="userInput" class="usuario" type="user" name="Usuario" placeholder="Usuario">
                         </form>
-                        <div class="Titulo-Senha">
+                        <div id="titSenha" class="Titulo-Senha">
                             <h2>Senha</h2>
                         </div>
                         <form>
-                            <input id="senhaAut" class="senha" type="password" name="Senha" placeholder="Senha">
+                            <input id="senhaInput" class="senha" type="password" placeholder="Senha">
                         </form>
                     </form>
                 </div>
                 <!--BOTÕES DE ENTRAR E CARASTRO-->
                 <div class="Button-Entrar">
-                    <button type="button" class="btn btn-danger" onclick="authentication()">Entrar</button>
+                    <button type="button" class="btn btn-danger" onclick="entrar()">Entrar</button>
                 </div>
                 <div class="Button-Cadastro">
                     <button type="button" class="btn btn-danger"><a href="cadastro.html">Cadastro</a></button>
