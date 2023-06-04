@@ -1,173 +1,143 @@
 @media screen and (min-width: 250px) {
-            body{
-                background-image: url(../docs/img/background0.png);
-                background-repeat: no-repeat;
-                background-size: cover;
-            } 
-    
-        }
-        
-        .topnavbar {
-            background-color: #440501;
-            overflow: hidden;
-        }
+  body{
+      background-image: url(../docs/img/background0.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  } 
 
-        .topnavbar ul li{
-            float: left;
-            color: #ffffff;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+}
 
-        ul {
-            list-style-type: none;
-        }
+.topnavbar {
+  background-color: #440501;
+  overflow: hidden;
+}
 
-        .home{
-          padding: 10px;
-          font-family: Arial, Helvetica, sans-serif;
-          background: rgba(240, 83, 72, 1);
-          border-color: rgba(240, 83, 72, 1);
-          border-radius: 5px;
-          color: white;
-      }
-      
-      .academy{
-          padding: 10px;
-          font-family: Arial, Helvetica, sans-serif;
-          background: rgba(240, 83, 72, 1);
-          border-color: rgba(240, 83, 72, 1);
-          border-radius: 5px;
-          color: white;
-      }
-      
-      .favoritos{
-          padding: 10px;
-          font-family: Arial, Helvetica, sans-serif;
-          background: rgba(240, 83, 72, 1);
-          border-color: rgba(240, 83, 72, 1);
-          border-radius: 5px;
-          color: white;
-      }
+.topnavbar ul li{
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-        /* -----titulo da ficha----- */
-        .FichaDeTreinoH2 {
-            text-align: center;
-            position: relative;
-            top: 25px;
-            color:rgb(255, 255, 255);
-        }
-        
-        /* -----titulo da ficha----- */
-        .DietasH2 {
-          text-align: center;
-          position: relative;
-          top: 25px;
-          color:#450400;
-      }
+ul {
+  list-style-type: none;
+}
 
-          /* -----estilo em volta da caixa de texto----- */  
-          .input1 {
-            position: relative;
-            left: 40px;
-            bottom: -2px;
-            width: 470px;
-            border: none;
-            outline-color: rgb(255, 255, 255);
-            background-color: rgba(255, 255, 255, 0);
-          }
+.home{
+padding: 10px;
+font-family: Arial, Helvetica, sans-serif;
+background: rgba(240, 83, 72, 1);
+border-color: rgba(240, 83, 72, 1);
+border-radius: 5px;
+color: white;
+}
 
-          /* -----estilo em volta da caixa de texto2----- */  
-          .input2 {
-            position: relative;
-            left: 40px;
-            bottom: -2px;
-            width: 470px;
-            border: none;
-            outline-color: #450400;
-            background-color: rgba(255, 255, 255, 0);
-          }
+.academy{
+padding: 10px;
+font-family: Arial, Helvetica, sans-serif;
+background: rgba(240, 83, 72, 1);
+border-color: rgba(240, 83, 72, 1);
+border-radius: 5px;
+color: white;
+}
+
+.favoritos{
+padding: 10px;
+font-family: Arial, Helvetica, sans-serif;
+background: rgba(240, 83, 72, 1);
+border-color: rgba(240, 83, 72, 1);
+border-radius: 5px;
+color: white;
+}
+
+/* -----titulo da ficha----- */
+.FichaDeTreinoH2 {
+  margin: 25px;
+  text-align: center;
+  position: relative;
+  color:rgb(255, 255, 255);
+}
+
+/* -----titulo da ficha----- */
+.DietasH2 {
+margin: 25px;
+text-align: center;
+color:#450400;
+}
+
+/* -----estilo em volta da caixa de texto----- */  
 
 
-          /* -----botões de submit----- */
-          .submit1 {
-            position: relative;
-            right: 484px;
-            color: white;
-            border-color: white;
-            border: none;
-            background-color: rgba(255, 255, 255, 0);
-            font-size: 34px;
-          }
 
-          .submit2 {
-            position: relative;
-            right: 484px;
-            color: #450400;
-            border-color: #450400;
-            border: none;
-            background-color: rgba(255, 255, 255, 0);
-            font-size: 34px;
-          }
+.container {
+  display: flex;
+}
 
-          /* -----estilo das linhas a baixo da caixa de texto----- */
-        .form1 {
-            position: relative;
-            top: 40px;
-            margin-left: 45px;
-            margin-right: 45px;
-            margin-top: 10px;
-            border: none;
-            box-shadow: 0px 2px 0px 0px rgb(255, 255, 255);
-          }
-
-          /* -----estilo das linhas a baixo da caixa de texto 2----- */
-          .form2 {
-            position: relative;
-            top: 40px;
-            margin-left: 45px;
-            margin-right: 45px;
-            margin-top: 10px;
-            border: none;
-            box-shadow: 0px 2px 0px 0px #450400;
-          }
+.FichaDeTreino, .Dietas  {
+  margin-top: 100px;
+  flex: 1;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+}
 
 
-          /* -----fichaDeTreino-Background----- */
-        .FichaDeTreino {
-            position:absolute;
-            margin-left: 350px;
-            margin-top: 110px;
-            background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);;
-            width: 600px;
-            height: 625px;
-            border-top-left-radius: 10px;
-            border-bottom-left-radius: 7px;
-            box-shadow: 45px 30px 20px -5px rgba(0, 0, 0, 0.5);
-            
-        }
-          /* -----Dietas-Background----- */  
-        .Dietas {
-          position:absolute;
-          margin-top: 110px;
-          margin-left: 950px;
-          background: rgb(255, 255, 255);
-          width: 600px;
-          height: 625px;
-          border-top-right-radius: 10px;
-          border-bottom-right-radius: 10px;
-          box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
-      }
+/* -----fichaDeTreino-Background----- */
+.FichaDeTreino {
+  background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 7px;
+  box-shadow: 45px 30px 20px -5px rgba(0, 0, 0, 0.5);
+  
+}
+.form-wrapper, .form-wrapper1 {
+padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-      a:link {
-        color: white;
-    }
-    
-    a:visited {
-        color: white;
-    }
-    
-    a:hover {
-        color: #000000;
-    }
+.input1, .input2 {
+outline: none;
+border: none;
+background: none;
+border-bottom: 2px solid;
+width: 450px;
+}
+
+.input1 {
+color: #ffffff;
+}
+
+.submit1, .submit2 {
+margin-bottom: 15px;
+background-color: transparent;
+font-size: 50px;
+border: none;
+position: absolute;
+margin-right: 495px;
+}
+.submit1 {
+color: #ffffff;
+}
+
+/* -----Dietas-Background----- */  
+.Dietas {
+background: rgb(255, 255, 255);
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+box-shadow: 30px 30px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+a:link {
+color: white;
+}
+
+a:visited {
+color: white;
+}
+
+a:hover {
+color: #000000;
+}
