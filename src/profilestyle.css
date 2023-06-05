@@ -6,7 +6,8 @@ body{
         background-image: url(../docs/img/background0.png);
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 0;
+        justify-content: center;
+        align-items: center;
     }
     img {
         max-width: 100%;
@@ -24,6 +25,7 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font: 400 18px Lato, sans-serif;
+    display: flex;
 }
 
 .topnavbar {
@@ -31,6 +33,7 @@ body{
     overflow: hidden;
     width: 100vw;
     align-items: start;
+    margin: 0;
 }
 
 ul {
@@ -42,71 +45,182 @@ ul {
     text-decoration: none;
 }
 
+.perfil{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2%;
+    
+}
+.perfil button{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background: #f78b83;
+    border: none;  
+    background-image: url(../docs/img/user.png);  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    
+}
+h4{
+    flex-direction: row-reverse;
+    color: white;
+    display: flex;
+    margin-right: 15%;
+}
+
 .fundo{
     width: 100vw;
     height: 100vh;
-    align-items: center;
+    display: flex;
     justify-content: center;
-    display: flex;
+    align-items: center;
    }
-.left {
+
+   .q1{
+    background: rgb(250, 47, 47);
     display: flex;
-    background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);;
-    width: 25vw;
-    height: 70vh;
+    width: 40vw;
+    height: 90vh;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    justify-content: center;
-    align-items: center;
-   
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.hex img{
+    display: flex;
+    width: 7vw;
+    margin: 50px;
     
 }
-
-.right{
+.nome h4{
     display: flex;
-    background: white;
-    width: 30vw;
-    height: 70vh;
-    align-items: flex-start;
+    margin: 30% -25%;
+    font-size: 25pt;
+    color: white;
+    width: 20vw;
+    flex-wrap: wrap;
+}
+.inf{
+    display: flex;
     flex-direction: column;
+    margin: -4% 10%;
+    padding: 2px;
+    width: 10vh;
+}
+.inf label{
+    display: flex;
+    height: 0vh;  
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.inf input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 7vw;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 14pt;
+    color: white;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 45%; 
+    width: 9vw;
+    height: 25vh;
+}
+.check legend{
+    display: flex;
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 2px;
+    margin-left: -40%;
+    width: 4vw;
+    height: 3vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+}
+.check input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 10vw;
+    color: white;
+    margin-bottom: -20px;
+    margin-top: -15px;
+    flex-wrap: wrap;
+}
+.check label{
+    width: 9vw;
+    margin-left: 65%;
+    font-size: 15pt;
+    color: white;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    
+}
+.log{
+    display: flex;
+    width: 5vw;
+    height: 8vh;
+}
+.log button{
+    background: none;
+    border: none;
+    pointer-events:stroke;
+    color: white;
+}
+
+
+.q2{
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 40vw;
+    height: 90vh;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 20px 25px;
+    flex-direction: column;
 }
-.right h5{
+
+.q2 h5{
     display: flex;
-    width: 15vw;
-    margin: 0;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 10px;
+    width: 30vw;
+    height: 5vh;
+    padding: 10px 10px;
     color: #F05348;
+    font-size: 25pt;
+    margin: 0;
 }
 .taxa-m{
-    width: 25vw;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
+    margin: 15px;
+    align-content: flex-start;
+    width: 30vw;
+
 }
 
 .textfild input{
-    width: 90%;
-    align-items: flex-start;
-    height: 10px;
+    width: 10vw;
+    height: 4vh;
     display: flex;
     border: none;
     border-bottom: 1px solid #f0534873;
-    margin: 10px;
     padding: 10px 0px;
     outline: none;
+    margin: 5px;
 }
 .textfild ::placeholder{
     color: #f0534873;
 }
 .tmb{
     display: flex;
-    width: 90%;
+    width: 6vw;
     padding: 10px;
     align-items: flex-start;
     justify-content: center;
@@ -118,12 +232,12 @@ ul {
     outline: none;
 }
 .resultado{
-    width: 70%;
+    width: 26vw;
     align-items: center;
     height: 15px;
     display: flex;
     border-bottom: 1px solid #f0534873;
-    margin: -25px;
+    margin: -40px;
     margin-left: 88px;
     color: #f0534873;
 }
@@ -132,19 +246,22 @@ ul {
 .imc h5{
     margin:0;
     display: flex;
-    width: 15vw;
-    margin-top: 10px;
+    width: 2vw;
+    height: 5vh;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 10px;
     color: #F05348;
+    font-size: 25pt;
+    margin-top: -20px;
 }
 .taxa-imc{
-    width: 15vw;
+    width: 40%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .textimc input{
@@ -163,7 +280,7 @@ ul {
 }
 .btnimc{
     display: flex;
-    width: 38%;
+    width: 15%;
     padding: 10px;
     align-items: flex-start;
     justify-content: center;
@@ -175,17 +292,18 @@ ul {
     outline: none;
 }
 .resultado-imc{
-    width: 50%;
+    width: 8vw;
     align-items: center;
     height: 15px;
     display: flex;
     border-bottom: 1px solid #f0534873;
-    margin: -25px;
-    margin-left: 88px;
+    margin: -35px;
+    margin-left: 80px;
     color: #f0534873;
+
 }
 .estado{
-    width: 358%;
+    width: 15vw;
     align-items: center;
     height: 15px;
     display: flex;
@@ -199,7 +317,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 35vw;
     margin: 0;
     padding: 20px;
 
