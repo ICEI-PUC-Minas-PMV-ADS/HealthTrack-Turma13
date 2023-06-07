@@ -238,8 +238,8 @@ h4{
     display: flex;
     border-bottom: 1px solid #f0534873;
     margin: -40px;
-    margin-left: 88px;
-    color: #f0534873;
+    margin-left: 100px;
+    color: #f05348;
 }
 
 
@@ -299,7 +299,7 @@ h4{
     border-bottom: 1px solid #f0534873;
     margin: -35px;
     margin-left: 80px;
-    color: #f0534873;
+    color: #f05348;
 
 }
 .estado{
@@ -308,7 +308,7 @@ h4{
     height: 15px;
     display: flex;
     border-bottom: 1px solid #f0534873;
-    color: #f0534873;
+    color: #f05348;
     margin-left: 10px;
     margin-top: 10px;
 }
