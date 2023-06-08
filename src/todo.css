@@ -1,0 +1,138 @@
+@media screen and (min-width: 250px) {
+    body
+    {
+      background-image: url(../docs/img/background0.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    } 
+    * 
+    {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      box-sizing: border-box;
+    }
+    .navBar
+    {
+      background: #450400;
+    }
+    nav > ul > button
+    {
+      cursor: pointer;
+      background: #F05348;
+      border-radius: 0;
+      border-radius: 10px;
+      padding: 0;
+      padding: 10px;
+      margin: 15px;
+    }
+    
+    .container 
+    {
+      width: 100%;
+      min-height: 100vh;
+      padding: 10px;
+    }
+    .todo 
+    {
+      width: 100%;
+      max-width: 540px;
+      background: linear-gradient(164.22deg, #F05348 10%, #AE1005 69%);
+      margin: 100px auto 20px;
+      padding: 40px 30px 70px;
+      border-radius: 20px;
+      box-shadow: 45px 30px 20px -5px rgba(0, 0, 0, 0.5);
+    }
+    .todo h2 
+    {
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      margin-left: 125px;
+    }
+    .todo h2 img 
+    {
+      width: 30px;
+      margin-left: 10px;
+    }
+    .row 
+    {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #edeef0;
+      border-radius: 30px;
+      padding-left: 20px;
+      margin-bottom: 25px;
+    }
+    input 
+    {
+      flex: 1;
+      border: none;
+      outline: none;
+      background: transparent;
+      padding: 10px;
+    }
+    button 
+    {
+      border: none;
+      outline: none;
+      padding: 16px 50px;
+      background: linear-gradient(164.22deg, #F05348 10%, #860900 69%);
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 40px;
+    }
+    ul li 
+    {
+      color: #fff;
+      list-style: none;
+      font-size: 17px;
+      padding: 20px 8px 12px 50px;
+      user-select: none;
+      cursor: pointer;
+      position: relative;
+    }
+    ul li::before 
+    {
+      content: '';
+      position: absolute;
+      height: 28px;
+      width: 28px;
+      border-radius: 50%;
+      background-image: url(./unchecked.png);
+      background-size: cover;
+      background-position: center;
+      top: 12px;
+      left: 8px;
+    }
+    ul li.checked 
+    {
+      color: #555;
+      text-decoration: line-through;
+    }
+    ul li.checked::before 
+    {
+      background-image: url(./checked.png);
+    }
+    ul li span 
+    {
+      position:absolute;
+      padding: 7px;
+      right: 0;
+      top: 5px;
+      width: 40px;
+      height: 40px;
+      font-size: 22px;
+      color:#555;
+      line-height: center;
+      text-align: center;
+      border-radius: 50%;
+    }
+    ul li span:hover
+    {
+      background: #edeef0;
+    }
