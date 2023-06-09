@@ -103,7 +103,7 @@
       height: 28px;
       width: 28px;
       border-radius: 50%;
-      background-image: url(HealthTrack-Turma13/docs/img/unchecked.png);
+      background-image: url(../docs/img/unchecked.png);
       background-size: cover;
       background-position: center;
       top: 12px;
@@ -116,7 +116,7 @@
     }
     ul li.checked::before 
     {
-      background-image: url(HealthTrack-Turma13/docs/img/checked.png)
+      background-image: url(../docs/img/checked.png)
     }
     ul li span 
     {
