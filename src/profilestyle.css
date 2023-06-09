@@ -26,6 +26,8 @@ body{
     text-decoration: none;
     font: 400 18px Lato, sans-serif;
     display: flex;
+    list-style-type: none;
+    
 }
 
 .topnavbar {
@@ -41,34 +43,42 @@ ul {
     
 }
 .topnavbar a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    list-style-type: none;
 }
 
+.btn-danger a:hover {
+    color: black;
+}
 .perfil{
     display: flex;
     flex-direction: row-reverse;
     margin-right: 2%;
     
-}
-.perfil button{
+  }
+  .perfil button{
     width: 35px;
     height: 35px;
     border-radius: 35px;
     background: #f78b83;
-    border: none;  
-    background-image: url(../docs/img/user.png);  
+    border: none;   
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
     
-}
-h4{
+  }
+  img{
+    width: 20px;
+    margin: 5px 0;
+  }
+  
+  h4{
     flex-direction: row-reverse;
     color: white;
     display: flex;
     margin-right: 15%;
-}
+  }
 
 .fundo{
     width: 100vw;
