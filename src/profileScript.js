@@ -1,3 +1,8 @@
+if (localStorage.getItem('token') == null) {
+  alert('Voce Precisa estar logado para acessar essa página');
+  window.location.href = 'Login.html';
+}
+
 function calcularTMB() {
     const altura = parseFloat(document.getElementById("altura").value);
     const peso = parseFloat(document.getElementById("peso").value);
@@ -35,3 +40,9 @@ function calcularIMC() {
     document.getElementById("estado-label").textContent = "Estado: " + estado;
   }
   
+  function sair(){
+    localStorage.removeItem('token')
+    setTimeout(() => {
+        window.location.href = 'Login.html';
+    }, 1000);
+}

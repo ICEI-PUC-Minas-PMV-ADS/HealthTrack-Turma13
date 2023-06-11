@@ -51,10 +51,3 @@ function entrar(){
     }
 
 }
-
-function sair(){
-    localStorage.removeItem('token')
-    setTimeout(() => {
-        window.location.href = 'Login.html';
-    }, 1000);
-}
