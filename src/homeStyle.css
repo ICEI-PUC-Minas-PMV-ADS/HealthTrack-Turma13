@@ -154,6 +154,7 @@ header {
 
 .input1,
 .input2 {
+  margin-top: 30px;
   margin-left: 25px;
   outline: none;
   border: none;
@@ -172,6 +173,7 @@ header {
   background-color: transparent;
   font-size: 35px;
   border: none;
+  cursor: pointer;
 }
 
 .submit1 {
