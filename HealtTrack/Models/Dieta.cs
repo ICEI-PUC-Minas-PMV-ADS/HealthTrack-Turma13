@@ -10,6 +10,6 @@ namespace HealtTrack.Models
         public int Id { get; set; }
 
         [Display(Name = "Descrição")]
-        public string Descricao { get; set; }
+        public string Text { get; set; }
     }
 }

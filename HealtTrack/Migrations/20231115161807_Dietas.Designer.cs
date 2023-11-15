@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HealtTrack.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231115002127_AddTableDietas")]
-    partial class AddTableDietas
+    [Migration("20231115161807_Dietas")]
+    partial class Dietas
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -22,6 +22,22 @@ namespace HealtTrack.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("HealtTrack.Models.Dieta", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Text")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Dietas");
+                });
 
             modelBuilder.Entity("HealtTrack.Models.Treino", b =>
                 {

@@ -1121,3 +1121,8 @@ C:\Users\caiqu\OneDrive\Área de Trabalho\Faculdade\Eixo 2\Projeto\HealthTrack-T
 C:\Users\caiqu\OneDrive\Área de Trabalho\Faculdade\Eixo 2\Projeto\HealthTrack-Turma13\HealtTrack\obj\Debug\net6.0\HealtTrack.pdb
 C:\Users\caiqu\OneDrive\Área de Trabalho\Faculdade\Eixo 2\Projeto\HealthTrack-Turma13\HealtTrack\obj\Debug\net6.0\HealtTrack.genruntimeconfig.cache
 C:\Users\caiqu\OneDrive\Área de Trabalho\Faculdade\Eixo 2\Projeto\HealthTrack-Turma13\HealtTrack\obj\Debug\net6.0\ref\HealtTrack.dll
+C:\Users\caiqu\OneDrive\Área de Trabalho\Faculdade\Eixo 2\Projeto\HealthTrack-Turma13\HealtTrack\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\caiqu\OneDrive\Área de Trabalho\Faculdade\Eixo 2\Projeto\HealthTrack-Turma13\HealtTrack\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\caiqu\OneDrive\Área de Trabalho\Faculdade\Eixo 2\Projeto\HealthTrack-Turma13\HealtTrack\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\caiqu\OneDrive\Área de Trabalho\Faculdade\Eixo 2\Projeto\HealthTrack-Turma13\HealtTrack\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\caiqu\OneDrive\Área de Trabalho\Faculdade\Eixo 2\Projeto\HealthTrack-Turma13\HealtTrack\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
