@@ -3,13 +3,14 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand[b-jptm1xbd34] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    
 }
 
 a[b-jptm1xbd34] {
-  color: #0077cc;
+    color: #e5e5e5;
 }
 
 .btn-primary[b-jptm1xbd34] {

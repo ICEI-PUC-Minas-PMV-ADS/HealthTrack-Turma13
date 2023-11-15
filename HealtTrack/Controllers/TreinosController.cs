@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HealtTrack.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HealtTrack.Controllers
 {
+    [Authorize]
     public class TreinosController : Controller
     {
         private readonly AppDbContext _context;
